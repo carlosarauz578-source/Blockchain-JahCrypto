@@ -1,1 +1,4 @@
-Hash del Bloque1: dc867bdab95e9182e778742d2ddcd958a5c21fe6975ff24e857f2c9de85a80cf  -
+## Bloques enlazados
+- Bloque1:
+  - Transacción A → B: 10 tokens
+  - Hash: dc867bdab95e9182e778742d2ddcd958a5c21fe6975ff24e857f2c9de85a80cf

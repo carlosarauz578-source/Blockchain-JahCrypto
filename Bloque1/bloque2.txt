@@ -1,0 +1,4 @@
+Transacción B → C: 20 tokens
+Hash del Bloque1: 8e7b7872dc1ade95a5c1f6e0f175e2f5872c9e5a5b80cf
+Transacción B → C: 20 tokenso
+

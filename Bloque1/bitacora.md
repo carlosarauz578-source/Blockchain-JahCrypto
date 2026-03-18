@@ -38,3 +38,9 @@ principales:
 ## Evidencia
 - VPS conectado vía SSH (Debian GNU/Linux). - Hash generado y verificado en terminal.
 - Archivos subidos y organizados en GitHub.
+
+## Bloques enlazados
+- Bloque1: contiene su hash 8e7b7872dc1ade95a5c1f6e0f175e2f5872c9e5a5b80cf - Bloque2: incluye el hash del 
+Bloque1 y su propia transacción. - Hash del Bloque2:812354fc13fb06ef1a8e7fbd10218a25048001a40830d585776eb215abfa9a7ao
+ 
+- Evidencia: si Bloque1 cambia, el hash de Bloque2 también se altera → demostración de integridad.

@@ -17,30 +17,46 @@
 - **DeFi**: finanzas descentralizadas.
 - **DAO**: organizaciones autónomas gobernadas por código.
 
+---
+
 # Bloque 1 – Fundamentos de Blockchain
 
 ## Teoría
-- Un **hash** es una función criptográfica que convierte datos en una cadena única de caracteres. - Propiedades 
-principales:
-  - Determinístico: la misma entrada siempre produce la misma salida. - Irreversible: no se puede obtener la 
-  entrada original desde el hash. - Sensible a cambios mínimos: un cambio en la entrada altera completamente el 
-  hash.
+- Un **hash** es una función criptográfica que convierte datos en una cadena única de caracteres.  
+- Propiedades principales:
+  - Determinístico: la misma entrada siempre produce la misma salida.  
+  - Irreversible: no se puede obtener la entrada original desde el hash.  
+  - Sensible a cambios mínimos: un cambio en la entrada altera completamente el hash.  
 - Algoritmo usado: **SHA-256**, estándar en la mayoría de blockchains.
 
 ## Práctica
-1. Generación de hash: - Comando: `echo "Carlos" | sha256sum` - Resultado: 
-   `dc867bdab95e9182f787742ddad958a5c21fe69751f24e85722e9de85a80cf`
-2. Creación de bloque: - Archivo: `bloque1.txt` - Contenido: `Hash del Bloque1: 
-   dc867bdab95e9182f787742ddad958a5c21fe69751f24e85722e9de85a80cf`
-3. Documentación: - Carpeta creada en GitHub: `/Blockchain-JahCrypto/Bloque1/` - Archivos: `bloque1.txt` y 
-   `bitacora.md`
+1. **Generación de hash**  
+   - Comando: `echo "Carlos" | sha256sum`  
+   - Resultado: `dc867bdab95e9182f787742ddad958a5c21fe69751f24e85722e9de85a80cf`
+
+2. **Creación de bloque**  
+   - Archivo: `bloque1.txt`  
+   - Contenido:  
+     ```
+     Transacción A → B: 10 tokens
+     Hash del Bloque1: dc867bdab95e9182f787742ddad958a5c21fe69751f24e85722e9de85a80cf
+     ```
+
+3. **Bloque enlazado**  
+   - Archivo: `bloque2.txt`  
+   - Contenido:  
+     ```
+     Transacción B → C: 20 tokens
+     Hash del Bloque1: dc867bdab95e9182f787742ddad958a5c21fe69751f24e85722e9de85a80cf
+     ```
+   - Hash del Bloque2: `812354fc13fb06ef1a8e7fbd10218a25048001a40830d585776eb215abfa9a7a`
 
 ## Evidencia
-- VPS conectado vía SSH (Debian GNU/Linux). - Hash generado y verificado en terminal.
-- Archivos subidos y organizados en GitHub.
+- VPS conectado vía SSH (Debian GNU/Linux).  
+- Hashes generados y verificados en terminal.  
+- Archivos subidos y organizados en GitHub.  
 
-- Bloque1:
-  - Transacción A → B: 10 tokens
-  - Hash: dc867bdab95e9182e778742d2ddcd958a5c21fe6975ff24e857f2c9de85a80cf
-
-  
+### Resultado
+- Bloque1 contiene su transacción y hash.  
+- Bloque2 incluye el hash del Bloque1 y su propia transacción.  
+- Si se modifica Bloque1, el hash de Bloque2 también cambia → demostración de integridad y encadenamiento.

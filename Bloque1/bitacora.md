@@ -17,13 +17,24 @@
 - **DeFi**: finanzas descentralizadas.
 - **DAO**: organizaciones autónomas gobernadas por código.
 
-## 🚀 Mini-proyecto del Bloque
-Crear un archivo `conceptos-bloque1.md` con definiciones simples:
+# Bloque 1 – Fundamentos de Blockchain
 
-```markdown
-# Conceptos Clave – Bloque 1
-- Blockchain: cuaderno digital compartido, seguro e inmutable.
-- Smart Contracts: acuerdos digitales autoejecutables.
-- Web3: nueva Internet descentralizada.
-- DeFi: finanzas sin bancos.
-- DAO: organizaciones autónomas descentralizadas.
+## Teoría
+- Un **hash** es una función criptográfica que convierte datos en una cadena única de caracteres. - Propiedades 
+principales:
+  - Determinístico: la misma entrada siempre produce la misma salida. - Irreversible: no se puede obtener la 
+  entrada original desde el hash. - Sensible a cambios mínimos: un cambio en la entrada altera completamente el 
+  hash.
+- Algoritmo usado: **SHA-256**, estándar en la mayoría de blockchains.
+
+## Práctica
+1. Generación de hash: - Comando: `echo "Carlos" | sha256sum` - Resultado: 
+   `dc867bdab95e9182f787742ddad958a5c21fe69751f24e85722e9de85a80cf`
+2. Creación de bloque: - Archivo: `bloque1.txt` - Contenido: `Hash del Bloque1: 
+   dc867bdab95e9182f787742ddad958a5c21fe69751f24e85722e9de85a80cf`
+3. Documentación: - Carpeta creada en GitHub: `/Blockchain-JahCrypto/Bloque1/` - Archivos: `bloque1.txt` y 
+   `bitacora.md`
+
+## Evidencia
+- VPS conectado vía SSH (Debian GNU/Linux). - Hash generado y verificado en terminal.
+- Archivos subidos y organizados en GitHub.

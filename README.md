@@ -18,8 +18,4 @@ Some blocks are still in progress and will be uploaded soon.
 
 ## 🎯 Goal
 Practice and document concepts of **blockchain, smart contracts, and cybersecurity** while progressing through GitHub achievements.
-
-## 🦈 Achievements in progress
-- YOLO ⚡ → Merge PR without review.  
-- Quickdraw 🎯 → Close PR in less than 5 minutes.  
-- Pull Shark 🦈 → Level up with more PRs.  
+cd ..

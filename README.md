@@ -19,3 +19,4 @@ Some blocks are still in progress and will be uploaded soon.
 ## 🎯 Goal
 Practice and document concepts of **blockchain, smart contracts, and cybersecurity** while progressing through GitHub achievements.
 cd ..✝️🤍
+🤖
